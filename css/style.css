@@ -2,19 +2,14 @@ body {
 	margin-top:100px;
 }
 
+
+
 .span-div{
 font-family: 'Raleway', sans-serif;
-color:#4A4E69;
+color:white;
 font-weight: 300;
 font-weight: bold;
 font-size: 15pt;
-}
-
-h1, h2, h3, h4, h5, h6{
-	
-	color:#4A4E69;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -64,11 +59,33 @@ nav {
 	padding: 65px 10px;
 }
 
+.row-grey h4{
+color: darkblue;
+  font-weight: 600;
+}
+
+.row-grey a{
+color: #007bff;
+}
+
+.row-grey p,.row-grey ul{
+color: black;
+}
+
 .row-white {
 	/*background-color: lightgrey;*/
 	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
 	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
 	padding: 65px 10px;
+}
+
+.row-white h4{
+color: #007bff;
+ font-weight: 600;
+}
+
+.row-white p,.row-white ul{
+color: white;
 }
 
 .row-footer {
